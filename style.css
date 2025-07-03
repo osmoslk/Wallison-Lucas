@@ -1,0 +1,74 @@
+/* Paleta: azul claro (#E0F0FF), azul médio (#007BFF), branco (#FFFFFF) */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E0F0FF;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+nav {
+  background-color: #007BFF;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 1em;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+
+h1, h2 {
+  color: #4984c4;
+}
+
+h4 {color: #4984c4;}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+input, textarea {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 120px; /* Tamanho do botão */
+  padding: 0.5em;
+  background-color: #007BFF;
+  color: white;
+  border: none; /* Deixando ele sem borda */
+  align-self: flex-start; /* Alinhado a esquerda */
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
